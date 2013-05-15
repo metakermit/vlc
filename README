@@ -36,7 +36,7 @@ README             - This file.
 THANKS             - VLC contributors.
 
 bin/               - VLC binaries.
-bindings/          - libVLC bindings to other languages.
+bindings/          - libVLC bindings to other languages. See "Submodules" below.
 compat/            - compatibility library for operating systems missing
                      essential functionalities.
 contrib/           - Facilities for retrieving external libraries and building
@@ -55,3 +55,16 @@ po/                - VLC translations.
 share/             - Common Resources files.
 src/               - libvlccore source code.
 test/              - testing system.
+
+Submodules:
+==========
+Certain parts of the functionality are found in separate git repositories.
+To grab this additional source code, execute this in the root of the source tree
+
+    git submodule init
+    git submodule update
+
+The list of the currently added submodules can be seen in the `.gitmodules` file.
+
+To find out more about submodules, see
+[here](http://git-scm.com/book/en/Git-Tools-Submodules).

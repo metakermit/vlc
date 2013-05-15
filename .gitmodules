@@ -1,0 +1,3 @@
+[submodule "bindings/python"]
+	path = bindings/python
+	url = http://git.videolan.org/git/vlc/bindings/python.git
